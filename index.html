@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario Familia</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Salarios familiares</h1>
+    <form id="form-datos-familiares">
+        <label>Ingrese cantidad de familiares: </label>
+        <input type="number" min="0" id="cantidad-familiares" />
+        <button type="submit" id="boton-cantidad-familiares">Siguiente</button>
+        <div id="inputs-familiares"> <!-- --> </div>
+        <button id="boton-calcular" class="oculto">Calcular</button>
+        <div id="datos-salario"> <!-- --> </div>
+    </form>
+
+    <div id="errores" class="error">
+        <!-- -->
+    </div>
+  
+    <p> <!-- -->  </p>
+    <button id="reload">Empezar de nuevo</button>
+
+    <script src='index.js'></script>
+</body>
+</html>
